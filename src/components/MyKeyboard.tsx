@@ -82,7 +82,7 @@ export default function MyKeyboard() {
         clear();
         setResult(parseInt(secondNumber) - parseInt(firstNumber));
         break;
-      case "*":
+      case "x":
         clear();
         setResult(parseInt(secondNumber) * parseInt(firstNumber));
         break;
